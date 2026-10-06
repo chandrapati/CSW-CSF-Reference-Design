@@ -88,7 +88,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -499,25 +499,25 @@ cross-references in this repository:
 - **NIST SP 800-53 Rev 5** — the most common Informative Reference
   source under CSF 2.0 Subcategories. Many `PR.PS`, `PR.IR`, `DE.CM`
   Subcategories cite specific 800-53 controls. See
-  [800-53 runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md).
+  [800-53 runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md).
 - **NIST SP 800-207 (Zero Trust Architecture)** — the seven ZTA
   tenets implement many `PR.AA`, `PR.IR`, `DE.CM` outcomes. See
-  [800-207 runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md).
+  [800-207 runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md).
 - **CIS Critical Security Controls v8.1** — common Informative
   Reference; CIS Safeguard 4.1 ↔ PR.PS-01, 13.x ↔ DE.CM-01, etc.
-  See [CIS runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/CIS-Controls-v8/CSW-CIS-Technical-Runbook.md).
+  See [CIS runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/CIS-Controls-v8/CSW-CIS-Technical-Runbook.md).
 - **CMMC 2.0** — Level 2 ≈ NIST 800-171 ≈ subset of 800-53,
   which is in turn cited under CSF Subcategories. See
-  [CMMC runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/CMMC-2/CSW-CMMC-Technical-Runbook.md).
+  [CMMC runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/CMMC-2/CSW-CMMC-Technical-Runbook.md).
 - **ISO/IEC 27001:2022** — Annex A controls cited as Informative
   References under many CSF Subcategories. See
-  [ISO 27001 runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md).
+  [ISO 27001 runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md).
 - **CISA Zero Trust Maturity Model** — sector-government overlay
   that aligns with CSF 2.0 outcomes. See
-  [CISA ZTMM runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/CISA-ZeroTrust/CSW-CISA-ZTMM-Technical-Runbook.md).
+  [CISA ZTMM runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/CISA-ZeroTrust/CSW-CISA-ZTMM-Technical-Runbook.md).
 
 
-- **UK NCSC CAF v3.2** — CSF outcomes are the reuse language for CAF A–D (see [CAF crosswalk](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/UK-NCSC-CAF/caf-mapping.md)).
+- **UK NCSC CAF v3.2** — CSF outcomes are the reuse language for CAF A–D (see [CAF crosswalk](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/UK-NCSC-CAF/caf-mapping.md)).
 
 ---
 
@@ -559,4 +559,4 @@ relied upon in a formal compliance engagement.
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
