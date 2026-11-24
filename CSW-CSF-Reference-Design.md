@@ -97,6 +97,8 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 Execute these phases for **this framework's** compliance boundary. Map exports to control IDs in the **Reporting & Evidence** section below.
 
+![CSW evidence workflow for NIST CSF 2.0 — the four phases from agent coverage through continuous proof, with the evidence artifact produced at each phase](assets/csw-evidence-workflow.png)
+
 | Phase | Goal | Key CSW actions | Typical duration |
 |-------|------|-----------------|------------------|
 | **1 — Coverage** | Every in-scope workload in CSW | Install agents/connectors; apply compliance labels; create scope | Days 1–10 |
@@ -134,7 +136,7 @@ Execute these phases for **this framework's** compliance boundary. Map exports t
 
 ### What CSW evidence does not replace
 
-Physical access, HR/training records, encryption key management, signed BAAs/vendor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
+Physical access, HR/training records, encryption key management, signed vendor and processor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
 
 ---
 
@@ -213,6 +215,9 @@ Step 3: Schedule Subcategory-aligned evidence pulls
 ## 3. Scope Architecture and Labeling
 
 Section 2 sets the Profile labels. This section turns them into the scope
+
+![NIST CSF 2.0 scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
+
 tree that the Identify and Protect functions are assessed against. The
 tree is the direct evidence artifact for **ID.AM-03** — representations of
 authorized network communication and internal and external data flows —
@@ -220,6 +225,8 @@ which is the Subcategory most organisations satisfy with a stale Visio
 diagram.
 
 ### 3.1 Suggested Scope Architecture
+
+
 
 ```
 Root Scope
